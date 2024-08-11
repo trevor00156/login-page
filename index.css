@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+#container{
+
+  height: 100vh;
+  width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #696969;
+  
+
+}
+
+#box{
+  height: 500px;
+  width: 500px;
+  border:none;
+  /* display: flex;
+  justify-content: center; */
+  box-sizing: border-box;
+  background-color: #a9a9a9;
+}
+
+#box-heading{
+  color: red;
+  font-size: 45px;
+  margin-top: 50px;
+  font-weight: bold;
+  text-align: center;
+  height: 100px;
+}
+
+
+
+.inputs{
+  height: 50px;
+  width: 380px;
+  margin: 15px;
+  border-radius: 5px;
+  font-size: medium;
+  padding-left: 15px;
+  border: none;
+ 
+}
+
+#content3{
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+a.forgot-password{
+  text-decoration: none;
+  font-size: larger;
+  color: white;
+  margin-top: 5px;
+  margin-left: -120px;
+ 
+ 
+
+}
+
+a.signup{
+  color: red;
+  text-decoration: none;
+  font-size: larger;
+  margin-top: 5px;
+  margin-right: -120px;
+
+}
+
+
+
+
+.input-box{
+  text-align: center;
+}
+
+#login{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.button{
+  height: 50px;
+  width: 380px;
+  font-size: larger;
+  font-style:italic;
+  background-color: red;
+  cursor: pointer;
+  border: none;
+}
